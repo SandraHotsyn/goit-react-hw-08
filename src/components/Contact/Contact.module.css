@@ -1,0 +1,59 @@
+.contactContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  width: 100%; /* Картка займає всю ширину контейнера */
+  box-sizing: border-box; /* Враховує padding у ширині */
+}
+
+.contactContainer:hover {
+  background-color: #f1f1f1;
+}
+
+.contactItem {
+  font-size: 16px;
+  color: #7c5e5e;
+  margin: 5px 0;
+  display: flex;
+  font-weight: 700;
+}
+
+.contactItem svg {
+  margin-right: 8px;
+  color: #666;
+}
+
+ul {
+  flex-grow: 1; /* Текст займає доступний простір */
+  margin: 0;
+  padding: 0;
+  list-style: none; /* Прибирає стандартні маркери списків */
+}
+
+.button {
+  background-color: #7c5e5e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 16px; /* Додає відступ між текстом і кнопкою */
+  flex-shrink: 0; /* Запобігає стисненню кнопки */
+}
+
+.button:hover {
+  background-color: #201a1a;
+}
+
+.button:active {
+  background-color: #1f1919;
+}

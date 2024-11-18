@@ -1,0 +1,8 @@
+.contactsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px; /* Відстань між елементами списку */
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
